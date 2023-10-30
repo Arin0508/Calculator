@@ -13,4 +13,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d madmax0508/calculator
+      shell: docker run -it -d --name Calculator madmax0508/calculator
