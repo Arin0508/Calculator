@@ -1,10 +1,6 @@
 package org.example;
-
-// import logging.LogManager;
-// import logging.Logger;
-import java.util.log4j.LogManager;
-import java.util.log4j.Logger;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.*;
 
 public class Main {
