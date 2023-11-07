@@ -22,7 +22,7 @@ public class Main {
             System.out.println("4. Division");
             System.out.println("5. Exit");
 			System.out.println("");
-            System.out.print("Enter your choice(number): ");
+            System.out.print("Enter your choice: ");
             op = scan.nextInt();
             if(op == 5) flag = 1;
             else
@@ -30,7 +30,6 @@ public class Main {
                 switch(op)
                 {
                     case 1:
-                        System.out.println("You Chose Addition!!");
                         System.out.print("Enter Operand 1: ");
                         num1 = scan.nextDouble();
                         System.out.print("Enter Operand 2: ");
@@ -39,7 +38,6 @@ public class Main {
                     break;
 
                     case 2:
-                        System.out.println("You Chose Subtraction!!");
                         System.out.print("Enter Operand 1: ");
                         num1 = scan.nextDouble();
                         System.out.print("Enter Operand 2: ");
@@ -48,7 +46,6 @@ public class Main {
                     break;
 
                     case 3:
-                        System.out.println("You Chose Multiplication!!");
                         System.out.print("Enter Operand 1: ");
                         num1 = scan.nextDouble();
                         System.out.print("Enter Operand 2: ");
@@ -57,7 +54,6 @@ public class Main {
                     break;
 
                     case 4:
-                        System.out.println("You Chose Division!!");
                         System.out.print("Enter Operand 1: ");
                         num1 = scan.nextDouble();
                         System.out.print("Enter Operand 2: ");
@@ -74,7 +70,7 @@ public class Main {
         logger.info("START OP: Add");
         double res = n1 + n2;
         System.out.println("");
-        System.out.println("Result is: " + res);
+        System.out.println("Result : " + res);
         System.out.println("");
         
         logger.info("[ADDITION OPERATION] [SUCCESS] " + n1 + "+" + n2);
@@ -90,7 +86,7 @@ public class Main {
 
         double res = n1 - n2;
         System.out.println("");
-        System.out.println("Result is: " + res);
+        System.out.println("Result : " + res);
         System.out.println("");
         
         logger.info("[SUBTRACTION OPERATION] [SUCCESS] " + n1 + "-" + n2);
@@ -106,7 +102,7 @@ public class Main {
 
         double res = n1 * n2;
         System.out.println("");
-        System.out.println("Result is: " + res);
+        System.out.println("Result : " + res);
         System.out.println("");
         
         logger.info("[MULTIPLICATION OPERATION] [SUCCESS] " + n1 + "*" + n2);
@@ -122,7 +118,7 @@ public class Main {
 
         double res = n1 / n2;
         System.out.println("");
-        System.out.println("Result is: " + res);
+        System.out.println("Result : " + res);
         System.out.println("");
         
         logger.info("[DIVISION OPERATION] [SUCCESS] " + n1 + "/" + n2);
