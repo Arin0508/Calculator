@@ -17,8 +17,8 @@ public class CalculatorTest
     @Test
     public void testAdd_pos()
     {
-        double a = 2, b = 2;
-        double expec_res = 4;
+        double a = 3, b = 2;
+        double expec_res = 5;
         double res = calculator.Addition(a, b);
         Assert.assertEquals(expec_res, res, 0.000001);
     }
